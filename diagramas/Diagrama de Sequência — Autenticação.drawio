@@ -1,0 +1,116 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="29.6.6">
+  <diagram name="Página-1" id="4qNRRBJ898rCaH_8TfjC">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NbmfhBZCdIt-YwIQlm0t-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;align=center;size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Parceiro / Cliente" vertex="1">
+          <mxGeometry height="1014" width="35" x="40" y="-1100" as="geometry" />
+        </mxCell>
+        <mxCell id="NbmfhBZCdIt-YwIQlm0t-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="AuthController" vertex="1">
+          <mxGeometry height="1014" width="150" x="453" y="-1100" as="geometry" />
+        </mxCell>
+        <mxCell id="NbmfhBZCdIt-YwIQlm0t-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="AuthService" vertex="1">
+          <mxGeometry height="1014" width="150" x="691" y="-1100" as="geometry" />
+        </mxCell>
+        <mxCell id="NbmfhBZCdIt-YwIQlm0t-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="PasswordEncoder" vertex="1">
+          <mxGeometry height="1014" width="150" x="1073" y="-1100" as="geometry" />
+        </mxCell>
+        <mxCell id="NbmfhBZCdIt-YwIQlm0t-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="JwtTokenProvider" vertex="1">
+          <mxGeometry height="1014" width="150" x="1391" y="-1100" as="geometry" />
+        </mxCell>
+        <mxCell id="NbmfhBZCdIt-YwIQlm0t-6" edge="1" parent="1" source="NbmfhBZCdIt-YwIQlm0t-1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="NbmfhBZCdIt-YwIQlm0t-2" value="POST /api/auth/login&#xa;{ &quot;username&quot;: &quot;admin&quot;, &quot;password&quot;: &quot;admin123&quot; }">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="-972" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NbmfhBZCdIt-YwIQlm0t-7" edge="1" parent="1" source="NbmfhBZCdIt-YwIQlm0t-2" style="curved=1;endArrow=block;rounded=0;" target="NbmfhBZCdIt-YwIQlm0t-2" value="@Valid — valida campos obrigatórios">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="579" y="-920" />
+              <mxPoint x="579" y="-890" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NbmfhBZCdIt-YwIQlm0t-8" edge="1" parent="1" source="NbmfhBZCdIt-YwIQlm0t-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="NbmfhBZCdIt-YwIQlm0t-3" value="login(loginRequestDTO)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="656" y="-838" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NbmfhBZCdIt-YwIQlm0t-9" edge="1" parent="1" source="NbmfhBZCdIt-YwIQlm0t-3" style="curved=1;endArrow=block;rounded=0;" target="NbmfhBZCdIt-YwIQlm0t-3" value="lookup username no mapa USERS">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="817" y="-786" />
+              <mxPoint x="817" y="-756" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NbmfhBZCdIt-YwIQlm0t-10" edge="1" parent="1" source="NbmfhBZCdIt-YwIQlm0t-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="NbmfhBZCdIt-YwIQlm0t-4" value="matches(senhaRecebida, senhaArmazenada)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="966" y="-704" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NbmfhBZCdIt-YwIQlm0t-11" edge="1" parent="1" source="NbmfhBZCdIt-YwIQlm0t-4" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="NbmfhBZCdIt-YwIQlm0t-3" value="true (credenciais válidas)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="969" y="-652" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NbmfhBZCdIt-YwIQlm0t-12" edge="1" parent="1" source="NbmfhBZCdIt-YwIQlm0t-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="NbmfhBZCdIt-YwIQlm0t-5" value="generateToken(&quot;admin&quot;)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1124" y="-600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NbmfhBZCdIt-YwIQlm0t-13" edge="1" parent="1" source="NbmfhBZCdIt-YwIQlm0t-5" style="curved=1;endArrow=block;rounded=0;" target="NbmfhBZCdIt-YwIQlm0t-5" value="cria Claims (subject, issuedAt, expiration)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1517" y="-548" />
+              <mxPoint x="1517" y="-518" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NbmfhBZCdIt-YwIQlm0t-14" edge="1" parent="1" source="NbmfhBZCdIt-YwIQlm0t-5" style="curved=1;endArrow=block;rounded=0;" target="NbmfhBZCdIt-YwIQlm0t-5" value="assina com HMAC-SHA256 + jwtSecret">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1517" y="-466" />
+              <mxPoint x="1517" y="-436" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NbmfhBZCdIt-YwIQlm0t-15" edge="1" parent="1" source="NbmfhBZCdIt-YwIQlm0t-5" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="NbmfhBZCdIt-YwIQlm0t-3" value="&quot;eyJhbGciOiJIUzI1NiIsIn...&quot;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1127" y="-384" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NbmfhBZCdIt-YwIQlm0t-16" edge="1" parent="1" source="NbmfhBZCdIt-YwIQlm0t-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="NbmfhBZCdIt-YwIQlm0t-2" value="token (String)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="659" y="-332" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NbmfhBZCdIt-YwIQlm0t-17" edge="1" parent="1" source="NbmfhBZCdIt-YwIQlm0t-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="NbmfhBZCdIt-YwIQlm0t-1" value="200 OK&#xa;{ &quot;token&quot;: &quot;eyJ...&quot;, &quot;type&quot;: &quot;Bearer&quot; }">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="333" y="-259" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NbmfhBZCdIt-YwIQlm0t-18" parent="1" style="fillColor=#ffff88;strokeColor=#9E916F;fontColor=light-dark(#333333,#cccccc);" value="Credenciais inválidas:&#xa;BadCredentialsException → GlobalExceptionHandler → 401 Unauthorized" vertex="1">
+          <mxGeometry height="68" width="1401" x="90" y="-239" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

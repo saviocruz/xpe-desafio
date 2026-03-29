@@ -1,0 +1,185 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="29.6.6">
+  <diagram name="Página-1" id="AP8KwRU2uCbUCGvnSJ6o">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Gb-56CPOjRUM5D_NFXuv-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;align=center;size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Parceiro / Cliente" vertex="1">
+          <mxGeometry height="1500" width="35" x="60" y="-1070" as="geometry" />
+        </mxCell>
+        <mxCell id="Gb-56CPOjRUM5D_NFXuv-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="JwtAuthFilter" vertex="1">
+          <mxGeometry height="1500" width="150" x="237" y="-1070" as="geometry" />
+        </mxCell>
+        <mxCell id="Gb-56CPOjRUM5D_NFXuv-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="JwtTokenProvider" vertex="1">
+          <mxGeometry height="1500" width="150" x="652" y="-1070" as="geometry" />
+        </mxCell>
+        <mxCell id="Gb-56CPOjRUM5D_NFXuv-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="ProdutoController" vertex="1">
+          <mxGeometry height="1500" width="150" x="852" y="-1070" as="geometry" />
+        </mxCell>
+        <mxCell id="Gb-56CPOjRUM5D_NFXuv-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="ProdutoService" vertex="1">
+          <mxGeometry height="1500" width="150" x="1164" y="-1070" as="geometry" />
+        </mxCell>
+        <mxCell id="Gb-56CPOjRUM5D_NFXuv-6" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="ProdutoFactory" vertex="1">
+          <mxGeometry height="1500" width="150" x="1364" y="-1070" as="geometry" />
+        </mxCell>
+        <mxCell id="Gb-56CPOjRUM5D_NFXuv-7" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="ProdutoAdapter" vertex="1">
+          <mxGeometry height="1500" width="150" x="1671" y="-1070" as="geometry" />
+        </mxCell>
+        <mxCell id="Gb-56CPOjRUM5D_NFXuv-8" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="ProdutoRepository" vertex="1">
+          <mxGeometry height="1500" width="152" x="1871" y="-1070" as="geometry" />
+        </mxCell>
+        <mxCell id="Gb-56CPOjRUM5D_NFXuv-9" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="H2 Database" vertex="1">
+          <mxGeometry height="1500" width="150" x="2126" y="-1070" as="geometry" />
+        </mxCell>
+        <mxCell id="Gb-56CPOjRUM5D_NFXuv-10" edge="1" parent="1" source="Gb-56CPOjRUM5D_NFXuv-1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="Gb-56CPOjRUM5D_NFXuv-2" value="POST /api/produtos&#xa;Authorization: Bearer {token}&#xa;{ &quot;nome&quot;: &quot;Notebook&quot;, &quot;preco&quot;: 4500.00, ... }">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="331" y="-921" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gb-56CPOjRUM5D_NFXuv-11" edge="1" parent="1" source="Gb-56CPOjRUM5D_NFXuv-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="Gb-56CPOjRUM5D_NFXuv-3" value="validateToken(token)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="627" y="-869" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gb-56CPOjRUM5D_NFXuv-12" edge="1" parent="1" source="Gb-56CPOjRUM5D_NFXuv-3" style="curved=1;endArrow=block;rounded=0;" target="Gb-56CPOjRUM5D_NFXuv-3" value="verifica assinatura + expiração">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="778" y="-817" />
+              <mxPoint x="778" y="-787" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gb-56CPOjRUM5D_NFXuv-13" edge="1" parent="1" source="Gb-56CPOjRUM5D_NFXuv-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="Gb-56CPOjRUM5D_NFXuv-2" value="true">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="630" y="-735" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gb-56CPOjRUM5D_NFXuv-14" edge="1" parent="1" source="Gb-56CPOjRUM5D_NFXuv-2" style="curved=1;endArrow=block;rounded=0;" target="Gb-56CPOjRUM5D_NFXuv-2" value="seta SecurityContext (username)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="561" y="-683" />
+              <mxPoint x="561" y="-653" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gb-56CPOjRUM5D_NFXuv-15" edge="1" parent="1" source="Gb-56CPOjRUM5D_NFXuv-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="Gb-56CPOjRUM5D_NFXuv-4" value="requisição autenticada">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="727" y="-601" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gb-56CPOjRUM5D_NFXuv-16" edge="1" parent="1" source="Gb-56CPOjRUM5D_NFXuv-4" style="curved=1;endArrow=block;rounded=0;" target="Gb-56CPOjRUM5D_NFXuv-4" value="@Valid — valida ProdutoRequestDTO">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="978" y="-549" />
+              <mxPoint x="978" y="-519" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gb-56CPOjRUM5D_NFXuv-17" edge="1" parent="1" source="Gb-56CPOjRUM5D_NFXuv-4" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="Gb-56CPOjRUM5D_NFXuv-5" value="criarProduto(produtoRequestDTO)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1092" y="-467" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gb-56CPOjRUM5D_NFXuv-18" edge="1" parent="1" source="Gb-56CPOjRUM5D_NFXuv-5" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="Gb-56CPOjRUM5D_NFXuv-6" value="criarProduto(dto)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1348" y="-415" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gb-56CPOjRUM5D_NFXuv-19" edge="1" parent="1" source="Gb-56CPOjRUM5D_NFXuv-6" style="curved=1;endArrow=block;rounded=0;" target="Gb-56CPOjRUM5D_NFXuv-6" value="new Produto() — seta campos + dataCriacao/dataAtualizacao = now()">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1490" y="-363" />
+              <mxPoint x="1490" y="-333" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gb-56CPOjRUM5D_NFXuv-20" edge="1" parent="1" source="Gb-56CPOjRUM5D_NFXuv-6" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="Gb-56CPOjRUM5D_NFXuv-5" value="Produto (sem ID)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1351" y="-281" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gb-56CPOjRUM5D_NFXuv-21" edge="1" parent="1" source="Gb-56CPOjRUM5D_NFXuv-5" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="Gb-56CPOjRUM5D_NFXuv-8" value="save(produto)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1602" y="-229" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gb-56CPOjRUM5D_NFXuv-22" edge="1" parent="1" source="Gb-56CPOjRUM5D_NFXuv-8" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="Gb-56CPOjRUM5D_NFXuv-9" value="INSERT INTO produtos (...)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2083" y="-177" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gb-56CPOjRUM5D_NFXuv-23" edge="1" parent="1" source="Gb-56CPOjRUM5D_NFXuv-9" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="Gb-56CPOjRUM5D_NFXuv-8" value="produto com ID gerado">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2086" y="-125" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gb-56CPOjRUM5D_NFXuv-24" edge="1" parent="1" source="Gb-56CPOjRUM5D_NFXuv-8" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="Gb-56CPOjRUM5D_NFXuv-5" value="Produto persistido">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1605" y="-73" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gb-56CPOjRUM5D_NFXuv-25" edge="1" parent="1" source="Gb-56CPOjRUM5D_NFXuv-5" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="Gb-56CPOjRUM5D_NFXuv-7" value="toDTO(produto)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1501" y="-21" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gb-56CPOjRUM5D_NFXuv-26" edge="1" parent="1" source="Gb-56CPOjRUM5D_NFXuv-7" style="curved=1;endArrow=block;rounded=0;" target="Gb-56CPOjRUM5D_NFXuv-7" value="copia campos Produto → ProdutoDTO">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1797" y="31" />
+              <mxPoint x="1797" y="61" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gb-56CPOjRUM5D_NFXuv-27" edge="1" parent="1" source="Gb-56CPOjRUM5D_NFXuv-7" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="Gb-56CPOjRUM5D_NFXuv-5" value="ProdutoDTO">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1504" y="113" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gb-56CPOjRUM5D_NFXuv-28" edge="1" parent="1" source="Gb-56CPOjRUM5D_NFXuv-5" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="Gb-56CPOjRUM5D_NFXuv-4" value="ProdutoDTO">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1095" y="165" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gb-56CPOjRUM5D_NFXuv-29" edge="1" parent="1" source="Gb-56CPOjRUM5D_NFXuv-4" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="Gb-56CPOjRUM5D_NFXuv-1" value="201 Created&#xa;{ &quot;id&quot;: 1, &quot;nome&quot;: &quot;Notebook&quot;, ... }">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="543" y="238" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gb-56CPOjRUM5D_NFXuv-30" parent="1" style="fillColor=#ffff88;strokeColor=#9E916F;fontColor=light-dark(#333333,#cccccc);" value="Token inválido/expirado:&#xa;JwtAuthFilter retorna 401 Unauthorized&#xa;sem chegar ao Controller" vertex="1">
+          <mxGeometry height="87" width="2116" x="110" y="258" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

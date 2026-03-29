@@ -1,0 +1,186 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="29.6.6">
+  <diagram name="Página-1" id="9mBRoH8KGw6G0mChWDee">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nzpe1U-p6LJcmHitxlAg-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;align=center;size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Parceiro / Cliente" vertex="1">
+          <mxGeometry height="1354" width="35" x="-790" y="-1040" as="geometry" />
+        </mxCell>
+        <mxCell id="nzpe1U-p6LJcmHitxlAg-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="JwtAuthFilter" vertex="1">
+          <mxGeometry height="1354" width="150" x="-459" y="-1040" as="geometry" />
+        </mxCell>
+        <mxCell id="nzpe1U-p6LJcmHitxlAg-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="JwtTokenProvider" vertex="1">
+          <mxGeometry height="1354" width="150" x="-242" y="-1040" as="geometry" />
+        </mxCell>
+        <mxCell id="nzpe1U-p6LJcmHitxlAg-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="ProdutoController" vertex="1">
+          <mxGeometry height="1354" width="150" x="-42" y="-1040" as="geometry" />
+        </mxCell>
+        <mxCell id="nzpe1U-p6LJcmHitxlAg-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="ProdutoService" vertex="1">
+          <mxGeometry height="1354" width="150" x="323" y="-1040" as="geometry" />
+        </mxCell>
+        <mxCell id="nzpe1U-p6LJcmHitxlAg-6" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="ProdutoFactory" vertex="1">
+          <mxGeometry height="1354" width="150" x="672" y="-1040" as="geometry" />
+        </mxCell>
+        <mxCell id="nzpe1U-p6LJcmHitxlAg-7" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="ProdutoAdapter" vertex="1">
+          <mxGeometry height="1354" width="150" x="904" y="-1040" as="geometry" />
+        </mxCell>
+        <mxCell id="nzpe1U-p6LJcmHitxlAg-8" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="ProdutoRepository" vertex="1">
+          <mxGeometry height="1354" width="152" x="1104" y="-1040" as="geometry" />
+        </mxCell>
+        <mxCell id="nzpe1U-p6LJcmHitxlAg-9" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="H2 Database" vertex="1">
+          <mxGeometry height="1354" width="150" x="1456" y="-1040" as="geometry" />
+        </mxCell>
+        <mxCell id="nzpe1U-p6LJcmHitxlAg-10" edge="1" parent="1" source="nzpe1U-p6LJcmHitxlAg-1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="nzpe1U-p6LJcmHitxlAg-2" value="PUT /api/produtos/1&#xa;Authorization: Bearer {token}&#xa;{ &quot;nome&quot;: &quot;Notebook Atualizado&quot;, ... }">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-541" y="-891" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nzpe1U-p6LJcmHitxlAg-11" edge="1" parent="1" source="nzpe1U-p6LJcmHitxlAg-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="nzpe1U-p6LJcmHitxlAg-3" value="validateToken(token)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-267" y="-839" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nzpe1U-p6LJcmHitxlAg-12" edge="1" parent="1" source="nzpe1U-p6LJcmHitxlAg-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="nzpe1U-p6LJcmHitxlAg-2" value="true">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-264" y="-787" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nzpe1U-p6LJcmHitxlAg-13" edge="1" parent="1" source="nzpe1U-p6LJcmHitxlAg-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="nzpe1U-p6LJcmHitxlAg-4" value="requisição autenticada">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-167" y="-735" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nzpe1U-p6LJcmHitxlAg-14" edge="1" parent="1" source="nzpe1U-p6LJcmHitxlAg-4" style="curved=1;endArrow=block;rounded=0;" target="nzpe1U-p6LJcmHitxlAg-4" value="@Valid — valida ProdutoRequestDTO">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="84" y="-683" />
+              <mxPoint x="84" y="-653" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nzpe1U-p6LJcmHitxlAg-15" edge="1" parent="1" source="nzpe1U-p6LJcmHitxlAg-4" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="nzpe1U-p6LJcmHitxlAg-5" value="atualizarProduto(1L, produtoRequestDTO)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="224" y="-601" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nzpe1U-p6LJcmHitxlAg-16" edge="1" parent="1" source="nzpe1U-p6LJcmHitxlAg-5" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="nzpe1U-p6LJcmHitxlAg-8" value="findById(1L)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="797" y="-549" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nzpe1U-p6LJcmHitxlAg-17" edge="1" parent="1" source="nzpe1U-p6LJcmHitxlAg-8" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="nzpe1U-p6LJcmHitxlAg-9" value="SELECT * FROM produtos WHERE id = 1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1364" y="-497" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nzpe1U-p6LJcmHitxlAg-18" edge="1" parent="1" source="nzpe1U-p6LJcmHitxlAg-9" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="nzpe1U-p6LJcmHitxlAg-8" value="Optional[Produto] (presente)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1367" y="-445" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nzpe1U-p6LJcmHitxlAg-19" edge="1" parent="1" source="nzpe1U-p6LJcmHitxlAg-8" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="nzpe1U-p6LJcmHitxlAg-5" value="Produto existente">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="800" y="-393" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nzpe1U-p6LJcmHitxlAg-20" edge="1" parent="1" source="nzpe1U-p6LJcmHitxlAg-5" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="nzpe1U-p6LJcmHitxlAg-6" value="atualizarProduto(produtoExistente, dto)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="581" y="-341" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nzpe1U-p6LJcmHitxlAg-21" edge="1" parent="1" source="nzpe1U-p6LJcmHitxlAg-6" style="curved=1;endArrow=block;rounded=0;" target="nzpe1U-p6LJcmHitxlAg-6" value="aplica campos do dto + dataAtualizacao = now()">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="798" y="-289" />
+              <mxPoint x="798" y="-259" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nzpe1U-p6LJcmHitxlAg-22" edge="1" parent="1" source="nzpe1U-p6LJcmHitxlAg-6" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="nzpe1U-p6LJcmHitxlAg-5" value="Produto atualizado">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="584" y="-207" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nzpe1U-p6LJcmHitxlAg-23" edge="1" parent="1" source="nzpe1U-p6LJcmHitxlAg-5" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="nzpe1U-p6LJcmHitxlAg-8" value="save(produto)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="797" y="-155" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nzpe1U-p6LJcmHitxlAg-24" edge="1" parent="1" source="nzpe1U-p6LJcmHitxlAg-8" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="nzpe1U-p6LJcmHitxlAg-9" value="UPDATE produtos SET ... WHERE id = 1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1364" y="-103" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nzpe1U-p6LJcmHitxlAg-25" edge="1" parent="1" source="nzpe1U-p6LJcmHitxlAg-9" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="nzpe1U-p6LJcmHitxlAg-8" value="Produto persistido">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1367" y="-51" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nzpe1U-p6LJcmHitxlAg-26" edge="1" parent="1" source="nzpe1U-p6LJcmHitxlAg-8" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="nzpe1U-p6LJcmHitxlAg-5" value="Produto atualizado">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="800" y="1" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nzpe1U-p6LJcmHitxlAg-27" edge="1" parent="1" source="nzpe1U-p6LJcmHitxlAg-5" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="nzpe1U-p6LJcmHitxlAg-7" value="toDTO(produto)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="697" y="53" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nzpe1U-p6LJcmHitxlAg-28" edge="1" parent="1" source="nzpe1U-p6LJcmHitxlAg-7" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="nzpe1U-p6LJcmHitxlAg-5" value="ProdutoDTO">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="700" y="105" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nzpe1U-p6LJcmHitxlAg-29" edge="1" parent="1" source="nzpe1U-p6LJcmHitxlAg-5" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="nzpe1U-p6LJcmHitxlAg-4" value="ProdutoDTO">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="227" y="157" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nzpe1U-p6LJcmHitxlAg-30" edge="1" parent="1" source="nzpe1U-p6LJcmHitxlAg-4" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="nzpe1U-p6LJcmHitxlAg-1" value="200 OK { &quot;id&quot;: 1, &quot;nome&quot;: &quot;Notebook Atualizado&quot;, ... }">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-329" y="209" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

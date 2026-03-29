@@ -1,0 +1,31 @@
+spring:
+  # Configuração do H2 Database para desenvolvimento
+  datasource:
+    url: jdbc:h2:file:./data/xpe-arquitetura-dev-db
+    driverClassName: org.h2.Driver
+    username: sa
+    password: 
+  
+  # Configuração do JPA/Hibernate para desenvolvimento
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+  
+  # Configuração do H2 Console para desenvolvimento
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+      settings:
+        web-allow-others: true
+
+# Configuração de logging para desenvolvimento
+logging:
+  level:
+    com.xpe.arquitetura: DEBUG
+    org.springframework.security: DEBUG
+    org.hibernate.SQL: DEBUG

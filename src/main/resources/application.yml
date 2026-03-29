@@ -1,0 +1,55 @@
+spring:
+  application:
+    name: xpe-arquitetura
+  
+  # Configuração do H2 Database (file-based para persistência)
+  datasource:
+    url: jdbc:h2:file:./data/xpe-arquitetura-db;AUTO_SERVER=TRUE
+    driverClassName: org.h2.Driver
+    username: sa
+    password: sa123
+  
+  # Configuração do JPA/Hibernate
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+  
+  # Configuração do H2 Console
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+      settings:
+        web-allow-others: true
+
+# Configuração do servidor
+server:
+  port: 8080
+  ssl:
+    enabled: false  # Esta aplicação usa HTTP puro — acesse via http://localhost:8080
+
+# Configuração JWT
+jwt:
+  secret: xpe-arquitetura-secret-key-2026-spring-boot-jwt-authentication-api-rest-java
+  expiration: 86400000 # 24 horas em milissegundos
+
+# Configuração do SpringDoc/Swagger
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+    enabled: true
+  api-docs:
+    path: /v3/api-docs
+
+
+# Configuração de logging
+logging:
+  level:
+    com.xpe.arquitetura: DEBUG
+    org.springframework.security: DEBUG
+    org.hibernate.SQL: DEBUG
